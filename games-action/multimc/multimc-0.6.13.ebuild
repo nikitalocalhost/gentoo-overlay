@@ -17,7 +17,7 @@ SRC_URI="
 	${BASE_URI}/libnbtplusplus/archive/${LIBNBTPLUSPLUS_VER}.tar.gz -> libnbtplusplus-${LIBNBTPLUSPLUS_VER}.tar.gz
 	${BASE_URI}/quazip/archive/${QUAZIP_VER}.tar.gz -> quazip-${QUAZIP_VER}.tar.gz
 "
-S="${WORKDIR}/MultiMC5-${PV}"
+S="${WORKDIR}/Launcher-${PV}"
 
 KEYWORDS="~amd64"
 LICENSE="Apache-2.0 Boost-1.0 BSD-2 BSD GPL-2+ LGPL-2.1-with-linking-exception LGPL-3 OFL-1.1 MIT"
